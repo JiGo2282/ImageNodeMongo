@@ -32,6 +32,7 @@ app.get('/', (req, res) => {
 	.then((data, err)=>{
 		if(err){
 			console.log(err);
+			console.log(err);
 		}
 		res.render('imagepage',{items: data})
 	})
